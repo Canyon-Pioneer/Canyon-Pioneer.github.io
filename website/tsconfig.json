@@ -1,6 +1,12 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "allowUnreachableCode": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": false,
+    "downlevelIteration": true,
+    "target": "es5",
     "module": "esnext",
     "strict": true,
     "jsx": "preserve",
@@ -23,7 +29,8 @@
       "esnext",
       "dom",
       "dom.iterable",
-      "scripthost"
+      "scripthost",
+      "es7"
     ]
   },
   "include": [
